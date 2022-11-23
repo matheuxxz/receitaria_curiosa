@@ -1,0 +1,442 @@
+@charset "UTF-8";
+
+
+    @font-face {
+        font-family: 'Sono', sans-serif;
+        src: url('Sono-Regular.ttf') format('truetype');
+    }
+
+
+        body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f06b;
+            overflow-x: hidden
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        header {
+            box-shadow: 0px -10px 20px black;
+            position: relative;
+            height: 100px;
+            background-color: #39b6fd;
+        }
+
+        img#logo {
+            margin-right: 70%;
+            margin-top: 5px;
+            width: 100px;
+        }
+
+        section#cabs {
+            position: relative;
+        }
+
+        input {
+            top: 35px;
+            left: 50%;
+            transform: translate(-52%);
+            position: absolute;
+            border-radius: 50px;
+            height: 25px;
+            width: 40vw;
+            max-width: 350px;
+            border: 0px solid;
+            font-size: 11px;
+        }
+
+        .txt_nav {
+            font-weight: bold;
+            top: 35px;
+            left: 69vw;
+            position: absolute;
+            display: inline;
+            text-align: right;
+            height: 27px;
+            padding-top: 5px;
+            border-radius: 10px;
+        }
+
+        .txt_nav:hover {
+            background-color: rgba(150, 225, 255, 0.548);
+            transition: 0.3s;
+        }
+
+            #txt_nav1 {
+                margin-left: -10px;
+                width: 60px;
+                text-align: center;
+            }
+
+            #txt_nav2 {
+                width: 75px;
+                margin-left: 70px;
+                text-align: center;
+            }
+
+            #txt_nav3 {
+                margin-left: 155px;
+                text-align: center;
+                width: 140px;
+            }
+
+        a.nav {
+            background-color: black;
+            text-decoration: none;
+            color: white;
+        }
+
+        section#main {
+            background-color: rgba(250, 249, 249, 0.596);
+            max-width: 800px;
+            height: 1360px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 170px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.062);
+            border-radius: 20px;
+        }
+
+        img#banner_comida {
+            margin-top: 30px;
+            margin-left: 50%;
+            transform: translate(-50%);
+            width: 600px;
+            height: 100px;
+        }
+
+        iframe#video {
+            background-color: lightgray;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            width: 750px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+
+        div#veja_mais {
+            position: absolute;
+            top: 630px;
+            width: 250px;
+            height: 50px;
+            left: 50%;
+            transform: translate(-50%) translate(-22px);
+            background-color: lightskyblue;
+            border-radius: 30px;
+        }
+
+        div#veja_mais:hover {
+            transition: 0.1s;
+            top: 625px;
+            padding: 5px;
+            box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.075);
+        }
+
+        a#links_main {
+            text-decoration: none;
+        }
+
+
+        div.vid_ex_cima {
+            border-radius: 20px;
+            height: 270px;
+            width: 250px;
+            background-color: rgb(255, 255, 255);
+            top: 730px;
+            position: absolute;
+            display: inline;
+        }
+
+        p.description {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            margin-top: 195px;
+            margin-left: 23px;
+            margin-right: 23px;
+            position: absolute;
+            opacity: 80%;
+            color: #646464;
+        }
+
+            #merda1 {
+                margin-left: 10px;
+            }
+
+            #merda2 {
+                margin-left: 275px;
+            }
+
+            #merda3 {
+                margin-left: 540px;
+            }
+
+
+        img.fotos_main {
+            position: absolute;
+            width: 210px;
+            height: 168px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+
+        .vid_ex_baixo {
+            border-radius: 20px;
+            height: 270px;
+            width: 250px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            display: inline;
+            margin-top: 840px;
+            margin-left: 0px;
+        }
+
+            #sa1 {
+                margin-left: 10px;
+            }
+
+            #sa2 {
+                margin-left: 275px;
+            }
+
+            #sa3 {
+                margin-left: 540px;
+            }
+
+            img.fotos_main2 {
+            position: absolute;
+            width: 210px;
+            height: 168px;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+
+        div.vid_ex_baixo:hover, div.vid_ex_cima:hover {
+            position: absolute;
+            padding: 5px;
+            transition: 0.2s;
+            transform: translate(-5px);
+        }
+
+        div#linha {
+            display: flex;
+            position: absolute;
+            width: 750px;
+            border: 1px solid rgba(0, 0, 0, 0.171);
+            top: 1040px;
+            left: 50%;
+            transform: translate(-50%);
+            border-radius: 30px;
+        }
+
+        p#veja_mais {
+            color: white;
+            font-size: 20px;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .vid_ex_baixo:hover, .vid_ex_cima:hover {
+            box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.055);
+        }
+
+        
+        footer {
+            background-color: lightskyblue;
+            width: 100vw;
+            height: 95px;
+            margin-top: 60px;
+        }
+
+
+        section#foot {
+            width: 100vw;
+        }
+
+
+        .img_rodape {
+            position: absolute;
+            margin-left: 50vw;
+            transform: translate(-50%);
+            width: 30px;
+        }
+
+            #ttk {
+                padding-right: 0px;
+                padding-left: -50px;
+                transform: translate(-40px);
+                width: 25px;
+            }
+
+            #insta {
+                padding-right: 0px;
+                padding-left: 50px;
+                transform: translate(-55px);
+                width: 25px;
+            }
+
+            #face {
+                
+                padding-right: 0px;
+                padding-left: 90px;
+            }
+        
+        .logos_foot {
+            position: absolute;
+            margin-top: 33px;
+
+        }
+
+        p#nossas_redes {
+            font-size: 13px;
+            color: white;
+            position: absolute;
+            display: flex;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        p#copy  {
+            position: absolute;
+            font-size: 13px;
+            text-align: center;
+            color: white;
+            margin-top: 68px;
+            left: 50%;
+            transform: translate(-50%);
+            width: 100vw;
+        }
+
+       
+/*-------------------------------------------------------------*/
+/*Page_receitas*/
+
+
+
+    section#main_receitas {
+        width: 700px;
+        min-height: 800px;
+        background-color: rgb(255, 255, 255);
+        margin-left: auto;
+        margin-right: auto;
+        font-family: cursive;
+        padding-bottom: 20px;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+
+    #mais, #mais1, #mais2, #mais3, #mais4 {
+        display: none;
+    }
+
+    div#linha2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 670px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid rgba(0, 0, 0, 0.137);
+    }
+
+    .botaozada {
+        color: black;
+        margin-left: 10px;
+        background-color: #39b5fd57;
+        border: none;
+        border-radius: 15px;
+        height: 20px;
+        width: 60px;
+    }
+
+    .botaozada:hover {
+        border: 1px solid rgba(0, 0, 0, 0.329);
+        cursor: pointer;
+    }
+
+    .txt_da_receita {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+/*-------------------------------------------------------------*/
+/*canaisparceiros*/
+
+    main#canaisP {
+        display: flex;
+        margin-top: -10px;
+    }
+
+
+    section#sec_main_canaisP {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.027);
+        border-radius: 20px;    
+        background-color: rgb(255, 255, 255);
+        margin-left: auto;
+        margin-right: auto;
+        width: 750px;
+        min-height: 750px;
+        margin-top: -20px;
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+    }
+
+    div.canaisP {
+        position: absolute;
+        border-radius: 20px;
+        width: 700px;
+        display: inline-block;
+        margin-top: 40px;
+        height: 200px;
+        background-color: #39b5fd2a;
+        margin-left: 25px;
+    }
+
+
+        #container1 {
+            background: rgba(0, 0, 0, 0.137) url('imganes/logo/receitas_do_tio_joao_banner.jpg') center center no-repeat;
+        }
+
+        #container2 {
+            background: rgba(0, 0, 0, 0.137) url('imganes/logo/receitas_up_delicia_banner.jpg') center center no-repeat;
+            top: 320px;
+        }
+
+        #container3 {
+            background: rgba(0, 0, 0, 0.137) url('imganes/logo/receitaria_curiosa_banner.jpg') center center no-repeat;
+            top: 560px;   
+        }
+
+
+    div.canaisP:hover {
+        cursor: pointer;
+        transition: 0.3s;
+        padding: 5px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.445);
+    }
+
+    p.text_canaisP {
+        display: inline-block;
+        margin-top: 0px;
+    }
+
+    img.img_canaisP {
+        width: 200px;
+        border-radius: 20px;
+        margin-top: 8px;
+        margin-left: 10px;
+        opacity: 30%;
+    }
+
+    
+
+

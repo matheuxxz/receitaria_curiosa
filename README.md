@@ -1,2 +1,2 @@
 # receitaria_curiosa
-site de receitas
+ site de receitas
